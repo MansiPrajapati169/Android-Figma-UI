@@ -10,6 +10,9 @@ import com.example.shieldpay.notification.AllNoticationFragment
 import com.example.shieldpay.notification.NotificationModel
 import com.example.shieldpay.notification.UnreadNotificationFragment
 import com.example.shieldpay.onboarding.OnboardingModel
+import com.example.shieldpay.roomdatabase.Note
+import java.util.UUID
+import kotlin.random.Random
 
 class Data {
 

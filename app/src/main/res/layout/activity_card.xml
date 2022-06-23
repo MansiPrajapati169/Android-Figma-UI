@@ -55,6 +55,7 @@
                 app:layout_constraintTop_toBottomOf="@id/toolbar" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_add_credit_card"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_20sdp"
@@ -66,6 +67,7 @@
                 android:textColor="@color/dot_selected"
                 android:textSize="@dimen/_14ssp"
                 app:backgroundTint="@null"
+                android:onClick="@{click::onClick}"
                 app:icon="@drawable/plus"
                 app:iconGravity="textStart"
                 app:iconTint="@color/dot_selected"

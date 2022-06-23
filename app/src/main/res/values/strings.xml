@@ -128,4 +128,15 @@
     <string name="subtitle">Subtitle</string>
     <string name="title">title</string>
     <string name="progressbar_notification">ProgressBar Notification</string>
+    <string name="enter_your_note_here">Enter Your Note Here</string>
+    <string name="add_note">Add Note</string>
+    <string name="update_note">Update Note</string>
+    <string name="save">Save</string>
+    <string name="this_is_a_popup_window">This is a popup window..</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="note_database">NoteDatabase</string>
+    <string name="insert_msg">Data Inserted Successfully!!</string>
+    <string name="update_msg">Data Updated Successfully!! and its id: </string>
+    <string name="delete_msg">Data Deleted Successfully!! and its id: </string>
 </resources>

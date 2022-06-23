@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_30sdp"
-            android:onClick="@{click.onClick}"
+            android:onClick="@{click::onClick}"
             android:text="@string/http_url_connection" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_40sdp"
             android:layout_marginTop="@dimen/_30sdp"
-            android:onClick="@{click.onClick}"
+            android:onClick="@{click::onClick}"
             android:text="@string/retrofit" />
 
     </LinearLayout>

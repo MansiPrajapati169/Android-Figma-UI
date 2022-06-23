@@ -136,7 +136,7 @@
                 android:id="@+id/tv_forgot_pass"
                 style="@style/label"
                 android:text="@string/forgot_password"
-                android:onClick="@{click.onClick}"
+                android:onClick="@{click::onClick}"
                 android:textAlignment="textEnd"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -145,7 +145,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_signin"
                 style="@style/blueButton"
-                android:onClick="@{click.onClick}"
+                android:onClick="@{click::onClick}"
                 android:layout_marginTop="@dimen/_30sdp"
                 android:text="@string/sign_in"
                 app:layout_constraintEnd_toEndOf="@id/edt_password"

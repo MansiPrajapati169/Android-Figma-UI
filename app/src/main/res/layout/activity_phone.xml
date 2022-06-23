@@ -98,7 +98,7 @@
                 style="@style/blueButton"
                 android:layout_marginTop="@dimen/_170sdp"
                 android:layout_marginBottom="@dimen/_40sdp"
-                android:onClick="@{click.onClick}"
+                android:onClick="@{click::onClick}"
                 android:text="@string/send_code"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

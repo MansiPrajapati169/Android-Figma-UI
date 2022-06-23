@@ -119,7 +119,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_signup"
                 style="@style/blueButton"
-                android:onClick="@{click.onClick}"
+                android:onClick="@{click::onClick}"
                 android:layout_marginTop="@dimen/_30sdp"
                 android:text="@string/sign_up"
                 app:layout_constraintEnd_toEndOf="@id/edt_password"
@@ -130,7 +130,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_phone"
                 style="@style/whiteButton"
-                android:onClick="@{click.onClick}"
+                android:onClick="@{click::onClick}"
                 android:layout_marginTop="@dimen/_15sdp"
                 android:layout_marginBottom="@dimen/_10sdp"
                 android:text="@string/with_phone_number"

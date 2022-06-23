@@ -12,9 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShieldPay">
         <activity
+            android:name=".roomdatabase.NotesActivity"
+            android:exported="false" />
+        <activity
             android:name=".notifications.NotificationActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".webservices.RetrofitOrHttpActivity"
             android:exported="false" />
@@ -58,7 +60,7 @@
         <activity
             android:name=".signup.SignupActivity"
             android:exported="true"
-            android:theme="@style/Theme.ShieldPay.Signup"/>
+            android:theme="@style/Theme.ShieldPay.Signup" />
         <activity
             android:name=".splash.SplashActivity"
             android:exported="true"
@@ -81,10 +83,11 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <service android:name=".notifications.MessagingService"
+        <service
+            android:name=".notifications.MessagingService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
